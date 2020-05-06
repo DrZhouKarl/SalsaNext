@@ -28,7 +28,8 @@ the mean intersection-over-union score, i.e. the Jaccard index, the weighted cro
 ## How to use the code
 
 First create the anaconda env with:
-```conda env create -f salsanext.yml``` then activate the environment with ```conda activate salsanext```.
+```conda env create -f salsanext_cudaXX.yml``` then activate the environment with ```conda activate salsanext```.
+where XX = 09 or 10
 
 To train/eval you can use the following scripts:
 
